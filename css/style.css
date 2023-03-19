@@ -1,3 +1,10 @@
+
+html {
+    min-height: 100%;
+    background-image: url("https://images.pexels.com/photos/4567479/pexels-photo-4567479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
 body {
     background-color: #94618E;
 }
