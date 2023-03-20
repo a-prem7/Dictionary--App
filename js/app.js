@@ -4,6 +4,7 @@ let result, userInput;
 
 
 const $result = $('#result');
+const $phonetics = $('#phonetics')
 const $partOfSpeech = $('#partofspeech');
 const $meaning= $('#meaning');
 const $example = $('#example');
@@ -31,7 +32,8 @@ function handleGetData(event) {
 
 function render() {
     $result.text(result[0].word);
+    $phonetics.text(result[0].phonetic)
     $partOfSpeech.text(result[0].meanings[0].partOfSpeech);
     $meaning.text(result[0].meanings[0].definitions[0].definition);
-    $example.text(result[0].meanings[0].definitions[0].example);
+    $example.text(result[0].meanings[0].definitions[0].example || "");
  }
