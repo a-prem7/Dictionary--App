@@ -1,6 +1,6 @@
 
 
-let solution, userInput;
+let result, userInput;
 
 
 const $result = $('#result');
@@ -15,11 +15,12 @@ function handleGetData(event) {
     event.preventDefault();
      
     userInput = $input.val();
+    
      
     $.ajax({ url:"https://api.dictionaryapi.dev/api/v2/entries/en/"+userInput
   }).then(
         (data) => {
-         weatherData = data;
+         result = data;
          render();
         },
         (error) => {
@@ -29,8 +30,8 @@ function handleGetData(event) {
 }
 
 function render() {
-    $location.text(weatherData.name);
-    $temp.text(weatherData.main.temp_max);
-    $feel.text(weatherData.main.feels_like);
-    $weather.text(weatherData.weather[0].description);
+    $result.text(result[0].word);
+    $partOfSpeech.text(result[0].meanings[0].partOfSpeech);
+    $meaning.text(result[0].meanings[0].definitions[0].definition);
+    $example.text(result[0].meanings[0].definitions[0].example);
  }
