@@ -22,7 +22,7 @@ function handleGetData(event) {
   }).then(
         (data) => {
          result = data;
-         render();
+         render()
         },
         (error) => {
          console.log('Cannot find the word', error);
@@ -37,3 +37,4 @@ function render() {
     $meaning.text(result[0].meanings[0].definitions[0].definition);
     $example.text(result[0].meanings[0].definitions[0].example || "");
  }
+ 
