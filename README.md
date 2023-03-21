@@ -13,4 +13,4 @@ Know the meaning, pronunciation, figure of speech and example of any "word" in j
 
 
 ## Future Enhancements
-* The ability to pronounce a word entered by the User by adding an audio feature
+ The ability to pronounce a word entered by the User by adding an audio feature

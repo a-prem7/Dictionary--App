@@ -1,15 +1,16 @@
 
 html {
     min-height: 100%;
-    background-image: url("https://images.pexels.com/photos/4567479/pexels-photo-4567479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
+     background-image: url("https://images.pexels.com/photos/4567486/pexels-photo-4567486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;  
 }
 
 body {
-    background-color: #94618E;
+    /* background-color: #94618E; */
 }
 .container {
-    background-color: #ffffff;
+    
+    background-color: white;
     width: 90vmin;
     position: absolute;
     transform: translate(-50%, -50%); 
@@ -18,6 +19,12 @@ body {
     padding: 80px 50px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    opacity: 0.8;
+    border-style: solid;
+    border-color: #003366;
+   
+   
+    
     
 }
 
@@ -33,6 +40,7 @@ h1{
     position: absolute;
     top: -15px;
     left: 350px;
+    color: #000033
     
 }
 #meaning{
@@ -45,14 +53,18 @@ h1{
     border: none;
     outline:none;
     border-bottom: 3px solid;
-    font-size: 16px;
-
-    
-    
+    font-size: 16px;     
 }
 
 #search-btn {
     margin-left: 30px;
     width: 15%;
     padding: 5px 0;
+    background-color: lightslategray;
+}
+h2{
+   color: #000066
+}
+h3{
+    font-weight: bold;
 }
