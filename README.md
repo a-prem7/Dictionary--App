@@ -9,8 +9,12 @@ Know the meaning, pronunciation, figure of speech and example of any "word" in j
 * jQuery
 * Dictionary API
 
+## Screenshot 
+
+image.png
+
 ## Getting Started
 
 
 ## Future Enhancements
- The ability to pronounce a word entered by the User by adding an audio feature
+ The ability to pronounce any "word" entered by the User by adding an audio feature.
