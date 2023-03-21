@@ -1,16 +1,15 @@
 
 html {
     min-height: 100%;
-     background-image: url("https://images.pexels.com/photos/4567486/pexels-photo-4567486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     background-image: url("https://images.pexels.com/photos/3109168/pexels-photo-3109168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;  
+    
+
 }
 
-body {
-    /* background-color: #94618E; */
-}
 .container {
     
-    background-color: white;
+    background-color: #E0E0E0;
     width: 90vmin;
     position: absolute;
     transform: translate(-50%, -50%); 
@@ -22,10 +21,7 @@ body {
     opacity: 0.8;
     border-style: solid;
     border-color: #003366;
-   
-   
-    
-    
+      
 }
 
 .result {
@@ -67,4 +63,7 @@ h2{
 }
 h3{
     font-weight: bold;
+}
+.error {
+    color: red;
 }

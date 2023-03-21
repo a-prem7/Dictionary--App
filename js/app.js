@@ -25,7 +25,10 @@ function handleGetData(event) {
          render()
         },
         (error) => {
-         console.log('Cannot find the word', error);
+            
+            $('.container').append(`<h3 class="error"><strong>Couldn't find the word. Please check the word and try again</strong></h3>`); 
+           
+       
         }
     );    
 }
@@ -36,5 +39,6 @@ function render() {
     $partOfSpeech.text(result[0].meanings[0].partOfSpeech);
     $meaning.text(result[0].meanings[0].definitions[0].definition);
     $example.text(result[0].meanings[0].definitions[0].example || "");
+
  }
  
