@@ -3,13 +3,10 @@ html {
     min-height: 100%;
      background-image: url("https://images.pexels.com/photos/3109168/pexels-photo-3109168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;  
-    
-
 }
 
 .container {
-    
-    background-color: #E0E0E0;
+     background-color: white;
     width: 90vmin;
     position: absolute;
     transform: translate(-50%, -50%); 
@@ -20,8 +17,8 @@ html {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
     opacity: 0.8;
     border-style: solid;
-    border-color: #003366;
-      
+    /* border-color: #003366; */
+    border-color: #000066;     
 }
 
 .result {
@@ -30,15 +27,16 @@ html {
 #partofspeech {
     font-style: italic;
 }
+
 h1{
     font-family: cursive;
     text-align: center;
     position: absolute;
     top: -15px;
     left: 350px;
-    color: #000033
-    
+    color: #000033;  
 }
+
 #meaning{
     font-weight: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -57,13 +55,17 @@ h1{
     width: 15%;
     padding: 5px 0;
     background-color: lightslategray;
+    font-weight: bold;
 }
+
 h2{
    color: #000066
 }
+
 h3{
     font-weight: bold;
 }
+
 .error {
     color: red;
 }

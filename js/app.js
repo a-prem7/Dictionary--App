@@ -23,13 +23,14 @@ function handleGetData(event) {
         (data) => {
          result = data;
          render()
+         $('form').trigger("reset");
+         
         },
         (error) => {
-            
-            $('.container').append(`<h3 class="error"><strong>Couldn't find the word. Please check the word and try again</strong></h3>`); 
-           
+        $('.container').append(`<h3 class="error"><strong>Couldn't find the word. Please check the word and try again</strong></h3>`); 
+        $('form').trigger("reset");
+       },
        
-        }
     );    
 }
 
@@ -39,6 +40,8 @@ function render() {
     $partOfSpeech.text(result[0].meanings[0].partOfSpeech);
     $meaning.text(result[0].meanings[0].definitions[0].definition);
     $example.text(result[0].meanings[0].definitions[0].example || "");
-
+    
  }
+
+
  
