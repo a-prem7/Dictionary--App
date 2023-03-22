@@ -11,7 +11,7 @@ Know the meaning, pronunciation, figure of speech and example of any "word" in j
 
 ## Screenshot 
 
-image.png
+![Screenshot](Screenshot%202023-03-22%20at%2011.02.48%20AM.png)
 
 ## Getting Started
 
