@@ -25,6 +25,7 @@ html {
 
 #partofspeech {
     font-style: italic;
+    font-size: 22px;
 }
 
 h1 {
@@ -63,9 +64,13 @@ h2 {
 
 h3 {
     font-weight: bold;
+    font-size: 25px;
 }
 
 .hide {
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4 {
+    font-size: 20px;
 }
