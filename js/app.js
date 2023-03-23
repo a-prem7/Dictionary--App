@@ -30,11 +30,7 @@ function handleGetData(event) {
         (error) => {
             $('section').hide();
             $('.hide').show();
-            
-         
-            
-            
-            $('form').trigger("reset")
+            $('form').trigger("reset");
         });
 }
 function render() {
