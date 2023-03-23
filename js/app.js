@@ -1,5 +1,3 @@
-
-
 let result, userInput;
 
 const $result = $('#result');
