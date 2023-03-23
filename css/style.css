@@ -16,7 +16,6 @@ html {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
     opacity: 0.8;
     border-style: solid;
-    /* border-color: #003366; */
     border-color: #000066;
 }
 
@@ -65,7 +64,8 @@ h2 {
 h3 {
     font-weight: bold;
 }
-    
+
 .hide {
     color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
